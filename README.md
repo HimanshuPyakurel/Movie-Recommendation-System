@@ -18,6 +18,20 @@
   
 More about Cosine Similarity : [Understanding the Math behind Cosine Similarity](https://www.machinelearningplus.com/nlp/cosine-similarity/)
 
+## How to run the project?
+
+1. Clone using git clone command or download this repository to your pc.
+2. Install all the libraries mentioned in the requirements.txt file. Using the command `pip install -r requirements.txt`
+3. Get your API key from https://www.themoviedb.org/. 
+4. Replace YOUR_API_KEY in line no. 15 and 29 of `static/recommend.js` file and save it.
+5. Open your terminal/command prompt from your project directory and run the file `main.py` by executing the command `python main.py`.
+6. Go to your browser and type `http://127.0.0.1:5000/` in the address bar.
+7. Enjoy...
+
+## How to get the API key?
+
+Create an account in https://www.themoviedb.org/, click on the `API` link from the left hand sidebar in your account settings and fill all the details to apply for API key. If you are asked for the website URL, just give "NA" if you don't have one. You will see the API key in your `API` sidebar once your request is approved.
+
 ### Sources of the datasets 
 
 1. [IMDB 5000 Movie Dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
